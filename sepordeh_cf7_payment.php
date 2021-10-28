@@ -1,12 +1,12 @@
 <?php
 
 /*
-Plugin Name: Contact Form 7 - Gateway Sepordeh v1.1
+Plugin Name: Contact Form 7 - Gateway Sepordeh v1.4
 Plugin URI: https://wordpress.org/plugins/sepordeh-payment-contact-form-7
 description: Sepordeh gateway payment for contact form 7
 Author: Sepordeh
 Author URI: https://sepordeh.com
-Version: 1.1
+Version: 1.4
 */
 
 
