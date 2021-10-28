@@ -68,7 +68,7 @@ function result_payment_func($atts)
 
     if ($Status == 'OK') {
         
-        $table_name = $wpdb->prefix . 'cfZ7_transaction';
+        $table_name = $wpdb->prefix . 'cfZ7_sepordeh_transaction';
         $cf_Form = $wpdb->get_row("SELECT * FROM $table_name WHERE transid=" . $Return_orderId);
         if (null !== $cf_Form) {
             $Amount = $cf_Form->cost;
