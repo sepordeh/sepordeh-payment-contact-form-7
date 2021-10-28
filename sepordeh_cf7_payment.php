@@ -178,7 +178,7 @@ register_uninstall_hook(__FILE__, "cf7pp_uninstall");
 function cf7pp_activate()
 {
 	global $wpdb;
-    $table_name = $wpdb->prefix . "cfZ7_transaction";
+    $table_name = $wpdb->prefix . "cfZ7_sepordeh_transaction";
     if ($wpdb->get_var("show tables like '$table_name'") != $table_name) {
         $sql = "CREATE TABLE " . $table_name . " (
 			id mediumint(11) NOT NULL AUTO_INCREMENT,
