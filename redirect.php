@@ -37,7 +37,7 @@
 
 //$your_email;
 // Set Data -> Table Trans_ContantForm7
-                $table_name = $wpdb->prefix . "cfZ7_transaction";
+                $table_name = $wpdb->prefix . "cfZ7_sepordeh_transaction";
                 $_x = array();
                 $_x['idform'] = $postid;
                 $_x['transid'] = time(); // create dynamic or id_get
